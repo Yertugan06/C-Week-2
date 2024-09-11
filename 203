@@ -1,0 +1,9 @@
+#include <iostream> // Library for output and input
+using namespace std; // namespace setting
+int main() {
+    int x, y; // x and y is integer
+    cin >> x >> y; // read x and y
+    cout << x * y; // output x * y
+    
+    return 0; // program ended succesfully
+}
