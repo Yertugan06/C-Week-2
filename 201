@@ -1,9 +1,9 @@
 #include <iostream> // Library for output and input
 using namespace std; // namespace setting
 int main() {
-    int x; // x is integer
-    cin >> x; // read x
-    cout << x; // output x
+    int x; // declaration number
+    cin >> x; // reading number
+    cout << x; // printing number
     
     return 0; // program ended succesfully
 }
