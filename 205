@@ -1,0 +1,15 @@
+#include <iostream> // Library for output and input
+using namespace std; // namespace setting
+int main() {
+    int x, y; // declaration two numbers
+    cin >> x >> y; // reading two numbers
+    /* if first number bigger than second number and first number is multiple to second printing yes, 
+     otherwise printing no
+    */
+     if (x > y && x % y == 0) {
+        cout << "yes" << endl;
+    } else {
+        cout << "no" << endl;
+    }
+    return 0; // program ended succesfully
+}
